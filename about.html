@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="20 saltwater fishing facts for the Western Cape. Learn about species, locations, seasons, and gear tips.">
+  <meta name="keywords" content="Western Cape fishing, saltwater fishing, South Africa fishing facts, Kob, Snoek, Galjoen">
+  <meta name="author" content="Noah">
+  <title>About – 20 Saltwater Fishing Facts</title>
+  <link rel="icon" href="favicon.jpeg" type="image/jpeg">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --primary: #1abc9c;
+      --dark-bg: #2c3e50;
+      --light-bg: #f4f4f4;
+      --text-color: #333;
+      --dark-text: #eee;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Roboto', Arial, sans-serif;
+      background-color: var(--light-bg);
+      color: var(--text-color);
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    header {
+      background-color: var(--dark-bg);
+      color: white;
+      padding: 15px 0;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+
+    .nav-container {
+      max-width: 1100px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 20px;
+    }
+
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--primary);
+    }
+
+    .dark-mode-toggle {
+      background: var(--primary);
+      border: none;
+      color: white;
+      padding: 6px 10px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: 30px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: var(--dark-bg);
+      border-bottom: 2px solid var(--primary);
+      padding-bottom: 5px;
+    }
+
+    .content-wrapper {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .sidebar {
+      flex: 0 0 250px;
+    }
+
+    .sidebar iframe {
+      width: 100%;
+      height: 200px;
+      border: none;
+      border-radius: 4px;
+      margin-bottom: 15px;
+    }
+
+    .sidebar img {
+      width: 100%;
+      margin-bottom: 10px;
+      border-radius: 4px;
+      object-fit: cover;
+    }
+
+    .fact-grid {
+      flex: 1;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: var(--dark-bg);
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+      font-size: 0.9em;
+    }
+
+    /* Dark mode */
+    body.dark {
+      background-color: #1e272e;
+      color: var(--dark-text);
+    }
+    body.dark main {
+      background-color: #2f3640;
+      color: var(--dark-text);
+    }
+    body.dark h2 {
+      color: var(--primary);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="nav-container">
+      <div><strong>Western Cape Fishing</strong></div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">Fishing Facts</a>
+        <button class="dark-mode-toggle" onclick="toggleDarkMode()">🌙 Dark Mode</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h2>20 Saltwater Fishing Facts</h2>
+    <div class="content-wrapper">
+      <aside class="sidebar">
+        <iframe 
+          src="https://www.youtube.com/embed/E2cuv1dDtWI" 
+          title="Fishing Tips Video"
+          allowfullscreen>
+        </iframe>
+
+        <img src="Fishing.jpeg" alt="Fishing gear">
+        <img src="fishing.jpg" alt="Fishing scene">
+        <img src="steenbras.jpg" alt="Steenbras fish">
+        <img src="fishing2.jpg" alt="Fishing at sunset">
+      </aside>
+
+      <div class="fact-grid">
+        <ul>
+          <li><strong>1.</strong> The Western Cape has both Atlantic and Indian Ocean coastlines.</li>
+          <li><strong>2.</strong> False Bay is a top spot for Kob, Shad, and Yellowtail.</li>
+          <li><strong>3.</strong> Cape Point offers deep-sea fishing for Tuna and Snoek.</li>
+          <li><strong>4.</strong> Kalk Bay is famous for pier fishing and fresh bait.</li>
+          <li><strong>5.</strong> Galjoen is South Africa’s national fish—often caught near rocky shores.</li>
+          <li><strong>6.</strong> The best surf fishing happens during rising tides.</li>
+          <li><strong>7.</strong> Sardines and chokka are top bait choices.</li>
+          <li><strong>8.</strong> West Coast towns like Paternoster and Langebaan are great for boat fishing.</li>
+          <li><strong>9.</strong> Snoek runs peak in winter months.</li>
+          <li><strong>10.</strong> Estuaries like Knysna and Witsand are ideal for Grunter and Steenbras.</li>
+        </ul>
+        <ul>
+          <li><strong>11.</strong> Fishing licenses are required for all saltwater fishing.</li>
+          <li><strong>12.</strong> Bag and size limits protect fish populations—check local rules.</li>
+          <li><strong>13.</strong> Many species are seasonal—plan your trips accordingly.</li>
+          <li><strong>14.</strong> Rock and surf fishing is popular along the Cape Peninsula.</li>
+          <li><strong>15.</strong> Weather and swell conditions affect catch success.</li>
+          <li><strong>16.</strong> Local tackle shops offer region-specific gear and advice.</li>
+          <li><strong>17.</strong> Conservation areas may restrict fishing—always check signage.</li>
+          <li><strong>18.</strong> Night fishing can be productive for Kob and Elf.</li>
+          <li><strong>19.</strong> Many anglers use drone casting to reach deeper waters.</li>
+          <li><strong>20.</strong> Western Cape fishing is a mix of tradition, sport, and sustainability.</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Noah | Western Cape Saltwater Fishing Guide</p>
+  </footer>
+
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark');
+      const button = document.querySelector('.dark-mode-toggle');
+      button.textContent = document.body.classList.contains('dark') ? '☀️ Light Mode' : '🌙 Dark Mode';
+    }
+  </script>
+</body>
+</html>
+
